@@ -32,6 +32,8 @@ theme:
   logo: images/oauthapp.png
   icon:
     repo: fontawesome/brands/github
+extra_css:
+  - stylesheets/extra.css
 extra:
   social:
     - icon: fontawesome/brands/github
