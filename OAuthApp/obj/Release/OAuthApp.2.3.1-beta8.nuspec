@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OAuthApp</id>
+    <version>2.3.1-beta8</version>
+    <authors>seven1986</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <icon>oauthapp.png</icon>
+    <projectUrl>https://www.oauthapp.com/</projectUrl>
+    <description>MicroService based on IdentityServer4 + Azure API Management</description>
+    <tags>IdentityServer4 MicroService AzureApiManagement</tags>
+    <repository type="github" url="https://github.com/seven1986/oauthapp" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="AspNet.Security.OAuth.GitHub" version="3.1.7" exclude="Build,Analyzers" />
+        <dependency id="AspNet.Security.OAuth.QQ" version="3.1.7" exclude="Build,Analyzers" />
+        <dependency id="AspNet.Security.OAuth.Weibo" version="3.1.7" exclude="Build,Analyzers" />
+        <dependency id="AspNet.Security.OAuth.Weixin" version="3.1.7" exclude="Build,Analyzers" />
+        <dependency id="AspNetCoreRateLimit" version="3.2.2" exclude="Build,Analyzers" />
+        <dependency id="IdentityServer4" version="4.1.1" exclude="Build,Analyzers" />
+        <dependency id="IdentityServer4.AspNetIdentity" version="4.1.1" exclude="Build,Analyzers" />
+        <dependency id="IdentityServer4.EntityFramework" version="4.1.1" exclude="Build,Analyzers" />
+        <dependency id="JavaScriptEngineSwitcher.V8" version="3.10.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.Facebook" version="3.1.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.Google" version="3.1.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.JwtBearer" version="3.1.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.MicrosoftAccount" version="3.1.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.OpenIdConnect" version="3.1.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.Twitter" version="3.1.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.DataProtection.Extensions" version="3.1.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Identity" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Identity.EntityFrameworkCore" version="3.1.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Identity.UI" version="3.1.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.NewtonsoftJson" version="3.1.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.SpaServices.Extensions" version="3.1.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.Cosmos.Table" version="1.0.8" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.Storage.Blob" version="11.2.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.Storage.Queue" version="11.2.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ClearScript.V8.Native.win-x64" version="7.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ClearScript.V8.Native.win-x86" version="7.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="3.1.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Caching.SqlServer" version="3.1.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.PlatformAbstractions" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Web.CodeGeneration.Design" version="3.1.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Web.CodeGeneration.Utils" version="3.1.4" exclude="Build,Analyzers" />
+        <dependency id="StackExchange.Redis" version="2.2.4" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore.Annotations" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore.Newtonsoft" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore.ReDoc" version="6.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.2" exclude="Build,Analyzers" />
+        <dependency id="System.IO.Compression.ZipFile" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/.editorconfig" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/3rdpartylicenses.txt" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/5.5da9739d8c455ddabeea.js" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/6.d72268b94d80124a416e.js" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/7.e2257009c2b6013edf33.js" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/assets/i18n/de.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/assets/i18n/en.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/assets/i18n/es.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/assets/i18n/fr.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/assets/i18n/it.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/assets/i18n/ja.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/assets/i18n/ko.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/assets/i18n/pt.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/assets/i18n/ru.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/assets/i18n/zh.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/assets/user.png" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/common.fd1f8bccdb65ee6fa4e4.js" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/favicon.ico" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/index.html" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/main.cdc5463b20f635604c30.js" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/polyfills.055dc73325887d36f663.js" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/runtime.d55e3c892998743c75b6.js" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/scripts.b6ec25f718bb533d5f0c.js" buildAction="Content" />
+      <files include="any/netcoreapp3.1/wwwroot/tenant/styles.5bff5aa7c7507d93a46f.css" buildAction="Content" />
+      <files include="any/netcoreapp3.1/oauthapp.pfx" buildAction="Content" />
+      <files include="any/netcoreapp3.1/readme.txt" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\bin\Release\netcoreapp3.1\en\OAuthApp.resources.dll" target="lib\netcoreapp3.1\en\OAuthApp.resources.dll" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\bin\Release\netcoreapp3.1\OAuthApp.runtimeconfig.json" target="lib\netcoreapp3.1\OAuthApp.runtimeconfig.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\bin\Release\netcoreapp3.1\OAuthApp.dll" target="lib\netcoreapp3.1\OAuthApp.dll" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\bin\Release\netcoreapp3.1\OAuthApp.xml" target="lib\netcoreapp3.1\OAuthApp.xml" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\.editorconfig" target="content\.editorconfig" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\.editorconfig" target="contentFiles\any\netcoreapp3.1\.editorconfig" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\3rdpartylicenses.txt" target="content\wwwroot\tenant\3rdpartylicenses.txt" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\3rdpartylicenses.txt" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\3rdpartylicenses.txt" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\5.5da9739d8c455ddabeea.js" target="content\wwwroot\tenant\5.5da9739d8c455ddabeea.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\5.5da9739d8c455ddabeea.js" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\5.5da9739d8c455ddabeea.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\6.d72268b94d80124a416e.js" target="content\wwwroot\tenant\6.d72268b94d80124a416e.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\6.d72268b94d80124a416e.js" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\6.d72268b94d80124a416e.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\7.e2257009c2b6013edf33.js" target="content\wwwroot\tenant\7.e2257009c2b6013edf33.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\7.e2257009c2b6013edf33.js" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\7.e2257009c2b6013edf33.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\de.json" target="content\wwwroot\tenant\assets\i18n\de.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\de.json" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\assets\i18n\de.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\en.json" target="content\wwwroot\tenant\assets\i18n\en.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\en.json" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\assets\i18n\en.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\es.json" target="content\wwwroot\tenant\assets\i18n\es.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\es.json" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\assets\i18n\es.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\fr.json" target="content\wwwroot\tenant\assets\i18n\fr.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\fr.json" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\assets\i18n\fr.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\it.json" target="content\wwwroot\tenant\assets\i18n\it.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\it.json" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\assets\i18n\it.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ja.json" target="content\wwwroot\tenant\assets\i18n\ja.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ja.json" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\assets\i18n\ja.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ko.json" target="content\wwwroot\tenant\assets\i18n\ko.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ko.json" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\assets\i18n\ko.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\pt.json" target="content\wwwroot\tenant\assets\i18n\pt.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\pt.json" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\assets\i18n\pt.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ru.json" target="content\wwwroot\tenant\assets\i18n\ru.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ru.json" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\assets\i18n\ru.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\zh.json" target="content\wwwroot\tenant\assets\i18n\zh.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\zh.json" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\assets\i18n\zh.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\user.png" target="content\wwwroot\tenant\assets\user.png" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\user.png" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\assets\user.png" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\common.fd1f8bccdb65ee6fa4e4.js" target="content\wwwroot\tenant\common.fd1f8bccdb65ee6fa4e4.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\common.fd1f8bccdb65ee6fa4e4.js" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\common.fd1f8bccdb65ee6fa4e4.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\favicon.ico" target="content\wwwroot\tenant\favicon.ico" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\favicon.ico" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\favicon.ico" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\index.html" target="content\wwwroot\tenant\index.html" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\index.html" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\index.html" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\main.cdc5463b20f635604c30.js" target="content\wwwroot\tenant\main.cdc5463b20f635604c30.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\main.cdc5463b20f635604c30.js" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\main.cdc5463b20f635604c30.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\polyfills.055dc73325887d36f663.js" target="content\wwwroot\tenant\polyfills.055dc73325887d36f663.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\polyfills.055dc73325887d36f663.js" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\polyfills.055dc73325887d36f663.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\runtime.d55e3c892998743c75b6.js" target="content\wwwroot\tenant\runtime.d55e3c892998743c75b6.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\runtime.d55e3c892998743c75b6.js" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\runtime.d55e3c892998743c75b6.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\scripts.b6ec25f718bb533d5f0c.js" target="content\wwwroot\tenant\scripts.b6ec25f718bb533d5f0c.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\scripts.b6ec25f718bb533d5f0c.js" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\scripts.b6ec25f718bb533d5f0c.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\styles.5bff5aa7c7507d93a46f.css" target="content\wwwroot\tenant\styles.5bff5aa7c7507d93a46f.css" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\styles.5bff5aa7c7507d93a46f.css" target="contentFiles\any\netcoreapp3.1\wwwroot\tenant\styles.5bff5aa7c7507d93a46f.css" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\oauthapp.pfx" target="content\oauthapp.pfx" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\oauthapp.pfx" target="contentFiles\any\netcoreapp3.1\oauthapp.pfx" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\readme.txt" target="content\readme.txt" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\readme.txt" target="contentFiles\any\netcoreapp3.1\readme.txt" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\oauthapp.png" target="oauthapp.png" />
+  </files>
+</package>

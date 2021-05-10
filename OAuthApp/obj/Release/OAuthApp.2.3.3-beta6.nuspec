@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OAuthApp</id>
+    <version>2.3.3-beta6</version>
+    <authors>seven1986</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <icon>oauthapp.png</icon>
+    <projectUrl>https://www.oauthapp.com/</projectUrl>
+    <description>MicroService based on IdentityServer4 + Azure API Management</description>
+    <tags>IdentityServer4 MicroService AzureApiManagement</tags>
+    <repository type="github" url="https://github.com/seven1986/oauthapp" />
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="AspNet.Security.OAuth.GitHub" version="5.0.4" exclude="Build,Analyzers" />
+        <dependency id="AspNet.Security.OAuth.QQ" version="5.0.4" exclude="Build,Analyzers" />
+        <dependency id="AspNet.Security.OAuth.Weibo" version="5.0.4" exclude="Build,Analyzers" />
+        <dependency id="AspNet.Security.OAuth.Weixin" version="5.0.4" exclude="Build,Analyzers" />
+        <dependency id="AspNetCoreRateLimit" version="3.2.2" exclude="Build,Analyzers" />
+        <dependency id="IdentityServer4" version="4.1.2" exclude="Build,Analyzers" />
+        <dependency id="IdentityServer4.AspNetIdentity" version="4.1.2" exclude="Build,Analyzers" />
+        <dependency id="IdentityServer4.EntityFramework" version="4.1.2" exclude="Build,Analyzers" />
+        <dependency id="JavaScriptEngineSwitcher.V8" version="3.12.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.Facebook" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.Google" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.JwtBearer" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.MicrosoftAccount" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.OpenIdConnect" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.Twitter" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.DataProtection.Extensions" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Identity" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Identity.EntityFrameworkCore" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Identity.UI" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.NewtonsoftJson" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.SpaServices.Extensions" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.Cosmos.Table" version="1.0.8" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.Storage.Blob" version="11.2.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.Storage.Queue" version="11.2.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ClearScript.V8.Native.win-x64" version="7.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ClearScript.V8.Native.win-x86" version="7.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Caching.SqlServer" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.PlatformAbstractions" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Web.CodeGeneration.Design" version="5.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Web.CodeGeneration.Utils" version="5.0.2" exclude="Build,Analyzers" />
+        <dependency id="StackExchange.Redis" version="2.2.4" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore" version="6.1.3" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore.Annotations" version="6.1.3" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore.Newtonsoft" version="6.1.3" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore.ReDoc" version="6.1.3" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.2" exclude="Build,Analyzers" />
+        <dependency id="System.IO.Compression.ZipFile" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net5.0/wwwroot/tenant/3rdpartylicenses.txt" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/5.824a14aba58b51160ee9.js" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/6.4fa0aa0f21ca708d0634.js" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/7.f06f05662f9df27b6730.js" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/af.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/am.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ar.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/as.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/az.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/bg.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/bn.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/bs.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ca.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/cs.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/cy.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/da.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/de.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/el.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/en.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/es.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/et.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/fa.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/fi.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/fil.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/fj.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/fr-CA.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/fr.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ga.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/gu.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/he.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/hi.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/hr.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ht.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/hu.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/hy.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/id.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/is.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/it.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/iu.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ja.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/kk.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/km.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/kmr.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/kn.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ko.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ku.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/lo.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/lt.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/lv.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/mg.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/mi.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ml.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/mr.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ms.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/mt.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/mww.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/my.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/nb.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ne.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/nl.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/or.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/otq.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/pa.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/pl.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/prs.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ps.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/pt-PT.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/pt.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ro.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ru.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/sk.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/sl.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/sm.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/sq.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/sr-Cyrl.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/sr-Latn.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/sv.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/sw.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ta.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/te.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/th.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ti.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/tlh-Latn.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/tlh-Piqd.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/to.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/tr.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ty.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/uk.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/ur.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/vi.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/yua.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/yue.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/zh-Hans.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/zh-Hant.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/i18n/zh.json" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/assets/user.png" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/common.7d47206cc5d84bd73dc2.js" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/favicon.ico" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/index.html" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/main.cd37ea5d9471a0a98753.js" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/polyfills.48c72eb240d9a6cc6a9f.js" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/runtime.24c0f7e511f73bf2e2d1.js" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/scripts.742b3773eb8b32488580.js" buildAction="Content" />
+      <files include="any/net5.0/wwwroot/tenant/styles.28da5e086336f4cfd085.css" buildAction="Content" />
+      <files include="any/net5.0/oauthapp.pfx" buildAction="Content" />
+      <files include="any/net5.0/readme.txt" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\bin\Release\net5.0\en\OAuthApp.resources.dll" target="lib\net5.0\en\OAuthApp.resources.dll" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\bin\Release\net5.0\OAuthApp.runtimeconfig.json" target="lib\net5.0\OAuthApp.runtimeconfig.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\bin\Release\net5.0\OAuthApp.dll" target="lib\net5.0\OAuthApp.dll" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\bin\Release\net5.0\OAuthApp.xml" target="lib\net5.0\OAuthApp.xml" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\3rdpartylicenses.txt" target="content\wwwroot\tenant\3rdpartylicenses.txt" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\3rdpartylicenses.txt" target="contentFiles\any\net5.0\wwwroot\tenant\3rdpartylicenses.txt" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\5.824a14aba58b51160ee9.js" target="content\wwwroot\tenant\5.824a14aba58b51160ee9.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\5.824a14aba58b51160ee9.js" target="contentFiles\any\net5.0\wwwroot\tenant\5.824a14aba58b51160ee9.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\6.4fa0aa0f21ca708d0634.js" target="content\wwwroot\tenant\6.4fa0aa0f21ca708d0634.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\6.4fa0aa0f21ca708d0634.js" target="contentFiles\any\net5.0\wwwroot\tenant\6.4fa0aa0f21ca708d0634.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\7.f06f05662f9df27b6730.js" target="content\wwwroot\tenant\7.f06f05662f9df27b6730.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\7.f06f05662f9df27b6730.js" target="contentFiles\any\net5.0\wwwroot\tenant\7.f06f05662f9df27b6730.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\af.json" target="content\wwwroot\tenant\assets\i18n\af.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\af.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\af.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\am.json" target="content\wwwroot\tenant\assets\i18n\am.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\am.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\am.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ar.json" target="content\wwwroot\tenant\assets\i18n\ar.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ar.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ar.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\as.json" target="content\wwwroot\tenant\assets\i18n\as.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\as.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\as.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\az.json" target="content\wwwroot\tenant\assets\i18n\az.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\az.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\az.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\bg.json" target="content\wwwroot\tenant\assets\i18n\bg.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\bg.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\bg.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\bn.json" target="content\wwwroot\tenant\assets\i18n\bn.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\bn.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\bn.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\bs.json" target="content\wwwroot\tenant\assets\i18n\bs.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\bs.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\bs.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ca.json" target="content\wwwroot\tenant\assets\i18n\ca.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ca.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ca.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\cs.json" target="content\wwwroot\tenant\assets\i18n\cs.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\cs.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\cs.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\cy.json" target="content\wwwroot\tenant\assets\i18n\cy.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\cy.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\cy.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\da.json" target="content\wwwroot\tenant\assets\i18n\da.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\da.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\da.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\de.json" target="content\wwwroot\tenant\assets\i18n\de.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\de.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\de.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\el.json" target="content\wwwroot\tenant\assets\i18n\el.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\el.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\el.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\en.json" target="content\wwwroot\tenant\assets\i18n\en.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\en.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\en.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\es.json" target="content\wwwroot\tenant\assets\i18n\es.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\es.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\es.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\et.json" target="content\wwwroot\tenant\assets\i18n\et.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\et.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\et.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\fa.json" target="content\wwwroot\tenant\assets\i18n\fa.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\fa.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\fa.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\fi.json" target="content\wwwroot\tenant\assets\i18n\fi.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\fi.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\fi.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\fil.json" target="content\wwwroot\tenant\assets\i18n\fil.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\fil.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\fil.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\fj.json" target="content\wwwroot\tenant\assets\i18n\fj.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\fj.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\fj.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\fr-CA.json" target="content\wwwroot\tenant\assets\i18n\fr-CA.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\fr-CA.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\fr-CA.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\fr.json" target="content\wwwroot\tenant\assets\i18n\fr.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\fr.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\fr.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ga.json" target="content\wwwroot\tenant\assets\i18n\ga.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ga.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ga.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\gu.json" target="content\wwwroot\tenant\assets\i18n\gu.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\gu.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\gu.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\he.json" target="content\wwwroot\tenant\assets\i18n\he.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\he.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\he.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\hi.json" target="content\wwwroot\tenant\assets\i18n\hi.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\hi.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\hi.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\hr.json" target="content\wwwroot\tenant\assets\i18n\hr.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\hr.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\hr.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ht.json" target="content\wwwroot\tenant\assets\i18n\ht.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ht.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ht.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\hu.json" target="content\wwwroot\tenant\assets\i18n\hu.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\hu.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\hu.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\hy.json" target="content\wwwroot\tenant\assets\i18n\hy.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\hy.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\hy.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\id.json" target="content\wwwroot\tenant\assets\i18n\id.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\id.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\id.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\is.json" target="content\wwwroot\tenant\assets\i18n\is.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\is.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\is.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\it.json" target="content\wwwroot\tenant\assets\i18n\it.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\it.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\it.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\iu.json" target="content\wwwroot\tenant\assets\i18n\iu.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\iu.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\iu.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ja.json" target="content\wwwroot\tenant\assets\i18n\ja.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ja.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ja.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\kk.json" target="content\wwwroot\tenant\assets\i18n\kk.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\kk.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\kk.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\km.json" target="content\wwwroot\tenant\assets\i18n\km.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\km.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\km.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\kmr.json" target="content\wwwroot\tenant\assets\i18n\kmr.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\kmr.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\kmr.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\kn.json" target="content\wwwroot\tenant\assets\i18n\kn.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\kn.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\kn.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ko.json" target="content\wwwroot\tenant\assets\i18n\ko.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ko.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ko.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ku.json" target="content\wwwroot\tenant\assets\i18n\ku.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ku.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ku.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\lo.json" target="content\wwwroot\tenant\assets\i18n\lo.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\lo.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\lo.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\lt.json" target="content\wwwroot\tenant\assets\i18n\lt.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\lt.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\lt.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\lv.json" target="content\wwwroot\tenant\assets\i18n\lv.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\lv.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\lv.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\mg.json" target="content\wwwroot\tenant\assets\i18n\mg.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\mg.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\mg.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\mi.json" target="content\wwwroot\tenant\assets\i18n\mi.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\mi.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\mi.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ml.json" target="content\wwwroot\tenant\assets\i18n\ml.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ml.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ml.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\mr.json" target="content\wwwroot\tenant\assets\i18n\mr.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\mr.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\mr.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ms.json" target="content\wwwroot\tenant\assets\i18n\ms.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ms.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ms.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\mt.json" target="content\wwwroot\tenant\assets\i18n\mt.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\mt.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\mt.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\mww.json" target="content\wwwroot\tenant\assets\i18n\mww.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\mww.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\mww.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\my.json" target="content\wwwroot\tenant\assets\i18n\my.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\my.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\my.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\nb.json" target="content\wwwroot\tenant\assets\i18n\nb.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\nb.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\nb.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ne.json" target="content\wwwroot\tenant\assets\i18n\ne.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ne.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ne.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\nl.json" target="content\wwwroot\tenant\assets\i18n\nl.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\nl.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\nl.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\or.json" target="content\wwwroot\tenant\assets\i18n\or.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\or.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\or.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\otq.json" target="content\wwwroot\tenant\assets\i18n\otq.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\otq.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\otq.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\pa.json" target="content\wwwroot\tenant\assets\i18n\pa.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\pa.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\pa.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\pl.json" target="content\wwwroot\tenant\assets\i18n\pl.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\pl.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\pl.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\prs.json" target="content\wwwroot\tenant\assets\i18n\prs.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\prs.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\prs.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ps.json" target="content\wwwroot\tenant\assets\i18n\ps.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ps.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ps.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\pt-PT.json" target="content\wwwroot\tenant\assets\i18n\pt-PT.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\pt-PT.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\pt-PT.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\pt.json" target="content\wwwroot\tenant\assets\i18n\pt.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\pt.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\pt.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ro.json" target="content\wwwroot\tenant\assets\i18n\ro.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ro.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ro.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ru.json" target="content\wwwroot\tenant\assets\i18n\ru.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ru.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ru.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sk.json" target="content\wwwroot\tenant\assets\i18n\sk.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sk.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\sk.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sl.json" target="content\wwwroot\tenant\assets\i18n\sl.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sl.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\sl.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sm.json" target="content\wwwroot\tenant\assets\i18n\sm.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sm.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\sm.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sq.json" target="content\wwwroot\tenant\assets\i18n\sq.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sq.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\sq.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sr-Cyrl.json" target="content\wwwroot\tenant\assets\i18n\sr-Cyrl.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sr-Cyrl.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\sr-Cyrl.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sr-Latn.json" target="content\wwwroot\tenant\assets\i18n\sr-Latn.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sr-Latn.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\sr-Latn.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sv.json" target="content\wwwroot\tenant\assets\i18n\sv.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sv.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\sv.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sw.json" target="content\wwwroot\tenant\assets\i18n\sw.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\sw.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\sw.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ta.json" target="content\wwwroot\tenant\assets\i18n\ta.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ta.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ta.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\te.json" target="content\wwwroot\tenant\assets\i18n\te.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\te.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\te.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\th.json" target="content\wwwroot\tenant\assets\i18n\th.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\th.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\th.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ti.json" target="content\wwwroot\tenant\assets\i18n\ti.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ti.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ti.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\tlh-Latn.json" target="content\wwwroot\tenant\assets\i18n\tlh-Latn.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\tlh-Latn.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\tlh-Latn.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\tlh-Piqd.json" target="content\wwwroot\tenant\assets\i18n\tlh-Piqd.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\tlh-Piqd.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\tlh-Piqd.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\to.json" target="content\wwwroot\tenant\assets\i18n\to.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\to.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\to.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\tr.json" target="content\wwwroot\tenant\assets\i18n\tr.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\tr.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\tr.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ty.json" target="content\wwwroot\tenant\assets\i18n\ty.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ty.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ty.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\uk.json" target="content\wwwroot\tenant\assets\i18n\uk.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\uk.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\uk.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ur.json" target="content\wwwroot\tenant\assets\i18n\ur.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\ur.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\ur.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\vi.json" target="content\wwwroot\tenant\assets\i18n\vi.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\vi.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\vi.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\yua.json" target="content\wwwroot\tenant\assets\i18n\yua.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\yua.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\yua.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\yue.json" target="content\wwwroot\tenant\assets\i18n\yue.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\yue.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\yue.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\zh-Hans.json" target="content\wwwroot\tenant\assets\i18n\zh-Hans.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\zh-Hans.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\zh-Hans.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\zh-Hant.json" target="content\wwwroot\tenant\assets\i18n\zh-Hant.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\zh-Hant.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\zh-Hant.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\zh.json" target="content\wwwroot\tenant\assets\i18n\zh.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\i18n\zh.json" target="contentFiles\any\net5.0\wwwroot\tenant\assets\i18n\zh.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\user.png" target="content\wwwroot\tenant\assets\user.png" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\assets\user.png" target="contentFiles\any\net5.0\wwwroot\tenant\assets\user.png" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\common.7d47206cc5d84bd73dc2.js" target="content\wwwroot\tenant\common.7d47206cc5d84bd73dc2.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\common.7d47206cc5d84bd73dc2.js" target="contentFiles\any\net5.0\wwwroot\tenant\common.7d47206cc5d84bd73dc2.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\favicon.ico" target="content\wwwroot\tenant\favicon.ico" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\favicon.ico" target="contentFiles\any\net5.0\wwwroot\tenant\favicon.ico" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\index.html" target="content\wwwroot\tenant\index.html" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\index.html" target="contentFiles\any\net5.0\wwwroot\tenant\index.html" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\main.cd37ea5d9471a0a98753.js" target="content\wwwroot\tenant\main.cd37ea5d9471a0a98753.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\main.cd37ea5d9471a0a98753.js" target="contentFiles\any\net5.0\wwwroot\tenant\main.cd37ea5d9471a0a98753.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\polyfills.48c72eb240d9a6cc6a9f.js" target="content\wwwroot\tenant\polyfills.48c72eb240d9a6cc6a9f.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\polyfills.48c72eb240d9a6cc6a9f.js" target="contentFiles\any\net5.0\wwwroot\tenant\polyfills.48c72eb240d9a6cc6a9f.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\runtime.24c0f7e511f73bf2e2d1.js" target="content\wwwroot\tenant\runtime.24c0f7e511f73bf2e2d1.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\runtime.24c0f7e511f73bf2e2d1.js" target="contentFiles\any\net5.0\wwwroot\tenant\runtime.24c0f7e511f73bf2e2d1.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\scripts.742b3773eb8b32488580.js" target="content\wwwroot\tenant\scripts.742b3773eb8b32488580.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\scripts.742b3773eb8b32488580.js" target="contentFiles\any\net5.0\wwwroot\tenant\scripts.742b3773eb8b32488580.js" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\styles.28da5e086336f4cfd085.css" target="content\wwwroot\tenant\styles.28da5e086336f4cfd085.css" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\wwwroot\tenant\styles.28da5e086336f4cfd085.css" target="contentFiles\any\net5.0\wwwroot\tenant\styles.28da5e086336f4cfd085.css" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\oauthapp.pfx" target="content\oauthapp.pfx" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\oauthapp.pfx" target="contentFiles\any\net5.0\oauthapp.pfx" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\readme.txt" target="content\readme.txt" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\readme.txt" target="contentFiles\any\net5.0\readme.txt" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\oauthapp.png" target="oauthapp.png" />
+  </files>
+</package>
