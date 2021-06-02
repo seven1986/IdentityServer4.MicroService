@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OAuthApp</id>
+    <version>2.3.4.4</version>
+    <authors>seven1986</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <icon>oauthapp.png</icon>
+    <projectUrl>https://seven1986.github.io/oauthapp/</projectUrl>
+    <description>OAuth2.0的Saas用户中心框架。</description>
+    <tags>IdentityServer4 MicroService AzureApiManagement</tags>
+    <repository type="github" url="https://github.com/seven1986/oauthapp" />
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="AspNet.Security.OAuth.GitHub" version="5.0.4" exclude="Build,Analyzers" />
+        <dependency id="AspNet.Security.OAuth.QQ" version="5.0.4" exclude="Build,Analyzers" />
+        <dependency id="AspNet.Security.OAuth.Weibo" version="5.0.4" exclude="Build,Analyzers" />
+        <dependency id="AspNet.Security.OAuth.Weixin" version="5.0.4" exclude="Build,Analyzers" />
+        <dependency id="AspNetCoreRateLimit" version="3.2.2" exclude="Build,Analyzers" />
+        <dependency id="Azure.Storage.Blobs" version="12.8.3" exclude="Build,Analyzers" />
+        <dependency id="Azure.Storage.Queues" version="12.6.1" exclude="Build,Analyzers" />
+        <dependency id="IdentityServer4" version="4.1.2" exclude="Build,Analyzers" />
+        <dependency id="IdentityServer4.AspNetIdentity" version="4.1.2" exclude="Build,Analyzers" />
+        <dependency id="IdentityServer4.EntityFramework" version="4.1.2" exclude="Build,Analyzers" />
+        <dependency id="JavaScriptEngineSwitcher.V8" version="3.12.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.Facebook" version="5.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.Google" version="5.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.JwtBearer" version="5.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.MicrosoftAccount" version="5.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.OpenIdConnect" version="5.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.Twitter" version="5.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.DataProtection.Extensions" version="5.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Identity" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Identity.EntityFrameworkCore" version="5.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Identity.UI" version="5.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.NewtonsoftJson" version="5.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.SpaServices.Extensions" version="5.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.Cosmos.Table" version="1.0.8" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ClearScript.V8.Native.win-x64" version="7.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ClearScript.V8.Native.win-x86" version="7.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="5.0.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Caching.SqlServer" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.PlatformAbstractions" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Web.CodeGeneration.Design" version="5.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Web.CodeGeneration.Utils" version="5.0.2" exclude="Build,Analyzers" />
+        <dependency id="StackExchange.Redis" version="2.2.4" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore" version="6.1.4" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore.Annotations" version="6.1.4" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore.Newtonsoft" version="6.1.4" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore.ReDoc" version="6.1.4" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.2" exclude="Build,Analyzers" />
+        <dependency id="System.IO.Compression.ZipFile" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net5.0/oauthapp.pfx" buildAction="Content" />
+      <files include="any/net5.0/readme.txt" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\bin\Release\net5.0\en\OAuthApp.resources.dll" target="lib\net5.0\en\OAuthApp.resources.dll" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\bin\Release\net5.0\OAuthApp.runtimeconfig.json" target="lib\net5.0\OAuthApp.runtimeconfig.json" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\bin\Release\net5.0\OAuthApp.dll" target="lib\net5.0\OAuthApp.dll" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\bin\Release\net5.0\OAuthApp.xml" target="lib\net5.0\OAuthApp.xml" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\oauthapp.pfx" target="content\oauthapp.pfx" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\oauthapp.pfx" target="contentFiles\any\net5.0\oauthapp.pfx" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\readme.txt" target="content\readme.txt" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\OAuthApp\readme.txt" target="contentFiles\any\net5.0\readme.txt" />
+    <file src="D:\Source\Repos\IdentityServer4.MicroService\oauthapp.png" target="oauthapp.png" />
+  </files>
+</package>

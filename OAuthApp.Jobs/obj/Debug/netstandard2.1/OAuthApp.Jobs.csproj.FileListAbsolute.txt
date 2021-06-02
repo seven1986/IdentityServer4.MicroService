@@ -1,0 +1,9 @@
+D:\Source\Repos\IdentityServer4.MicroService\OAuthApp.Jobs\bin\Debug\netstandard2.1\OAuthApp.Jobs.deps.json
+D:\Source\Repos\IdentityServer4.MicroService\OAuthApp.Jobs\bin\Debug\netstandard2.1\OAuthApp.Jobs.dll
+D:\Source\Repos\IdentityServer4.MicroService\OAuthApp.Jobs\bin\Debug\netstandard2.1\OAuthApp.Jobs.pdb
+D:\Source\Repos\IdentityServer4.MicroService\OAuthApp.Jobs\obj\Debug\netstandard2.1\OAuthApp.Jobs.csprojAssemblyReference.cache
+D:\Source\Repos\IdentityServer4.MicroService\OAuthApp.Jobs\obj\Debug\netstandard2.1\OAuthApp.Jobs.AssemblyInfoInputs.cache
+D:\Source\Repos\IdentityServer4.MicroService\OAuthApp.Jobs\obj\Debug\netstandard2.1\OAuthApp.Jobs.AssemblyInfo.cs
+D:\Source\Repos\IdentityServer4.MicroService\OAuthApp.Jobs\obj\Debug\netstandard2.1\OAuthApp.Jobs.csproj.CoreCompileInputs.cache
+D:\Source\Repos\IdentityServer4.MicroService\OAuthApp.Jobs\obj\Debug\netstandard2.1\OAuthApp.Jobs.dll
+D:\Source\Repos\IdentityServer4.MicroService\OAuthApp.Jobs\obj\Debug\netstandard2.1\OAuthApp.Jobs.pdb
